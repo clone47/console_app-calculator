@@ -2,7 +2,6 @@ using CalculatorLibrary;
 
 namespace CalculatorUnitTest
 {
-    [Collection("Sequential")]
     public class UnitTest
     {
         [Theory]
