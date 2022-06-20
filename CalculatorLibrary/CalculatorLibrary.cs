@@ -62,6 +62,7 @@ namespace CalculatorLibrary
                 default:
                     break;
             }
+
             writer.WritePropertyName("Result");
             writer.WriteValue(result);
             writer.WriteEndObject();
